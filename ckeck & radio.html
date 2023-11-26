@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Choose which grade:</h2>
+        <!-- *************************** -->
+        <form>
+        <div>
+        <input id="r1"  type="radio" value="grade1" name="d">
+        <label for="r1">Grade1</label>
+        </div>
+        <div>
+            <input id="r2"  type="radio" value="grade2" name="d">
+            <label for="r2">Grade2</label>
+         </div>
+         <div>
+            <input id="r3"  type="radio" value="grade3" name="d">
+            <label for="r3">Grade3</label>
+        </div>
+        <input type="submit" value="submit now">
+       <!-- ****************************************************** -->
+       <hr>
+        <div>
+            <input id="c1"  type="checkbox" value="grade1" name="c" checked>
+            <label for="c1">Grade1</label>
+            </div>
+            <div>
+                <input id="c2"  type="checkbox" value="grade2" name="c">
+                <label for="c2">Grade2</label>
+             </div>
+             <div>
+                <input id="c3"  type="checkbox" value="grade3" name="c">
+                <label for="c3">Grade3</label>
+            </div>
+            <input type="submit" value="submit now">
+       <!-- ****************************************************** -->
+       <hr>
+       <label for="gr">Select your grade</label>
+       <select id="gr" name="grad" >
+        <optgroup label="group1">
+        <option value="grade1">Grade1</option>
+        <option value="grade2" selected>Grade2</option>
+        <option value="grade3">Grade3</option>
+        </optgroup>
+       </select>
+
+
+
+
+
+       <!-- ************************Data Select****************************** -->
+
+       <hr>
+       <input list="grades" name="gra">
+       <datalist id="grades">
+        <option value="grade1">
+        <option value="grade2">
+        <option value="grade3">
+       
+       </datalist>
+       <input type="submit" value="submit now">
+       <input type="reset" value="reset">
+       <!-- <input type="button" value="submit now"> -->
+
+
+        </form>
+    </body>
+  </html>
